@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .conatiner {
+      margin: 30px;
+    }
+  </style>
+
+  <body>
+    <div id="app">
+      <div class="container">
+        <p>Method - 1: {{ getRandomNumber() }}</p>
+        <p>Method - 2: {{ getRandomNumber() }}</p>
+        <p>Method - 3: {{ getRandomNumber() }}</p>
+        <hr>
+        <p>Computed - 1: {{ getRandomComputed }}</p>
+        <p>Computed - 2: {{ getRandomComputed }}</p>
+        <p>Computed - 3: {{ getRandomComputed }}</p>
+        <p>Computed - 4: {{ getRandomComputed }}</p>
+      </div>
+      <h4><p>Full Name <strong>{{ fullName }}</strong></p></h4>
+      <h4><p>Reverse Full Name <strong>{{ reverseFullName }}</strong></p></h4>
+
+      
+      
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
